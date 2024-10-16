@@ -1,0 +1,19 @@
+{
+  "type" : "record",
+  "name" : "model1_prediction",
+  "doc" : "Sqoop import of model1_prediction",
+  "fields" : [ {
+    "name" : "label",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "label",
+    "sqlType" : "8"
+  }, {
+    "name" : "prediction",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "prediction",
+    "sqlType" : "8"
+  } ],
+  "tableName" : "model1_prediction"
+}

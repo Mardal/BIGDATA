@@ -1,1 +1,1 @@
-#!/bin/bash
+spark-submit --master yarn scripts/ml_part.py

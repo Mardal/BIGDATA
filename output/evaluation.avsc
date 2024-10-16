@@ -1,0 +1,37 @@
+{
+  "type" : "record",
+  "name" : "evaluation",
+  "doc" : "Sqoop import of evaluation",
+  "fields" : [ {
+    "name" : "model",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "model",
+    "sqlType" : "12"
+  }, {
+    "name" : "rmse",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "rmse",
+    "sqlType" : "8"
+  }, {
+    "name" : "r2",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "r2",
+    "sqlType" : "8"
+  }, {
+    "name" : "m_check15",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "m_check15",
+    "sqlType" : "8"
+  }, {
+    "name" : "m_check30",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "m_check30",
+    "sqlType" : "8"
+  } ],
+  "tableName" : "evaluation"
+}

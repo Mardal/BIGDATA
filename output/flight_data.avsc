@@ -1,0 +1,133 @@
+{
+  "type" : "record",
+  "name" : "flight_data",
+  "doc" : "Sqoop import of flight_data",
+  "fields" : [ {
+    "name" : "fl_date",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "fl_date",
+    "sqlType" : "91"
+  }, {
+    "name" : "dot_code",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "dot_code",
+    "sqlType" : "4"
+  }, {
+    "name" : "fl_number",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "fl_number",
+    "sqlType" : "4"
+  }, {
+    "name" : "crs_dep_time",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "crs_dep_time",
+    "sqlType" : "4"
+  }, {
+    "name" : "dep_time",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "dep_time",
+    "sqlType" : "8"
+  }, {
+    "name" : "dep_delay",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "dep_delay",
+    "sqlType" : "8"
+  }, {
+    "name" : "taxi_out",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "taxi_out",
+    "sqlType" : "8"
+  }, {
+    "name" : "wheels_off",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "wheels_off",
+    "sqlType" : "8"
+  }, {
+    "name" : "wheels_on",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "wheels_on",
+    "sqlType" : "8"
+  }, {
+    "name" : "taxi_in",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "taxi_in",
+    "sqlType" : "8"
+  }, {
+    "name" : "crs_arr_time",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "crs_arr_time",
+    "sqlType" : "4"
+  }, {
+    "name" : "arr_time",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "arr_time",
+    "sqlType" : "8"
+  }, {
+    "name" : "arr_delay",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "arr_delay",
+    "sqlType" : "8"
+  }, {
+    "name" : "cancelled",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "cancelled",
+    "sqlType" : "8"
+  }, {
+    "name" : "cancellation_code",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "cancellation_code",
+    "sqlType" : "12"
+  }, {
+    "name" : "diverted",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "diverted",
+    "sqlType" : "8"
+  }, {
+    "name" : "crs_elapsed_time",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "crs_elapsed_time",
+    "sqlType" : "8"
+  }, {
+    "name" : "elapsed_time",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "elapsed_time",
+    "sqlType" : "8"
+  }, {
+    "name" : "air_time",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "air_time",
+    "sqlType" : "8"
+  }, {
+    "name" : "id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "id",
+    "sqlType" : "4"
+  }, {
+    "name" : "route_id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "route_id",
+    "sqlType" : "4"
+  } ],
+  "tableName" : "flight_data"
+}

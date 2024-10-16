@@ -1,0 +1,43 @@
+{
+  "type" : "record",
+  "name" : "route_data",
+  "doc" : "Sqoop import of route_data",
+  "fields" : [ {
+    "name" : "origin",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "origin",
+    "sqlType" : "12"
+  }, {
+    "name" : "dest",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "dest",
+    "sqlType" : "12"
+  }, {
+    "name" : "origin_city",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "origin_city",
+    "sqlType" : "12"
+  }, {
+    "name" : "dest_city",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "dest_city",
+    "sqlType" : "12"
+  }, {
+    "name" : "route_id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "route_id",
+    "sqlType" : "4"
+  }, {
+    "name" : "most_common_distance",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "most_common_distance",
+    "sqlType" : "8"
+  } ],
+  "tableName" : "route_data"
+}

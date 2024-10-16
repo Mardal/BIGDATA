@@ -1,0 +1,25 @@
+{
+  "type" : "record",
+  "name" : "airports_data",
+  "doc" : "Sqoop import of airports_data",
+  "fields" : [ {
+    "name" : "airport_name",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "airport_name",
+    "sqlType" : "12"
+  }, {
+    "name" : "latitude",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "latitude",
+    "sqlType" : "8"
+  }, {
+    "name" : "longitude",
+    "type" : [ "null", "double" ],
+    "default" : null,
+    "columnName" : "longitude",
+    "sqlType" : "8"
+  } ],
+  "tableName" : "airports_data"
+}
